@@ -1,0 +1,25 @@
+Package: binwalk
+Version: 2.3.4+dfsg1-1
+Priority: optional
+Section: devel
+Maintainer: Debian Security Tools <team+pkg-security@tracker.debian.org>
+Installed-Size: 15.4 kB
+Depends: python3-binwalk, python3:any
+Homepage: https://github.com/ReFirmLabs/binwalk
+Download-Size: 5164 B
+APT-Sources: http://http.kali.org/kali kali-rolling/main amd64 Packages
+Description: tool library for analyzing binary blobs and executable code
+ Binwalk is a tool for searching a given binary image for embedded files
+ and executable code. Specifically, it is designed for identifying files
+ and code embedded inside of firmware images. Binwalk uses the libmagic
+ library, so it is compatible with magic signatures created for the Unix
+ file utility.
+ .
+ Binwalk also includes a custom magic signature file which contains
+ improved signatures for files that are commonly found in firmware images
+ such as compressed/archived files, firmware headers, Linux kernels,
+ bootloaders, filesystems, etc.
+ .
+ This package is an empty package, because the binary tool is already
+ provided with the library, dependency of this package.
+
