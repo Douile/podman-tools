@@ -1,0 +1,23 @@
+Package: scalpel
+Version: 1.60-10
+Priority: optional
+Section: utils
+Maintainer: Debian Security Tools <team+pkg-security@tracker.debian.org>
+Installed-Size: 90.1 kB
+Depends: libc6 (>= 2.34)
+Homepage: http://www.digitalforensicssolutions.com/Scalpel
+Tag: admin::forensics, admin::recovery, role::program, scope::utility,
+ security::forensics
+Download-Size: 32.6 kB
+APT-Sources: http://http.kali.org/kali kali-rolling/main amd64 Packages
+Description: fast filesystem-independent file recovery
+ scalpel is a fast file carver that reads a database of header and footer
+ definitions and extracts matching files from a set of image files or raw
+ device files.
+ .
+ scalpel is filesystem-independent and will carve files from FAT16, FAT32,
+ exFAT, NTFS, Ext2, Ext3, Ext4, JFS, XFS, ReiserFS, raw partitions, etc.
+ .
+ scalpel is a complete rewrite of the Foremost 0.69 file carver and is
+ useful for both digital forensics investigations and file recovery.
+
